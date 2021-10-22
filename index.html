@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .deskWrapper {
+            border: 5px solid #000;
+            width: 100vh;
+            height: 100vh;
+            margin: 0 auto;
+            display: grid;
+            /*grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;*/
+            /*grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;*/
+        }
+
+        .white {
+            background-color: #fff;
+            color: #000;
+            border: 3px solid #000;
+        }
+
+        .black {
+            background-color: #000;
+            color: #fff;
+            border: 3px solid #fff;
+        }
+
+        .block {
+            padding: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<div class="chessDesk">
+    <div class="deskWrapper" id="desk">
+
+    </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
